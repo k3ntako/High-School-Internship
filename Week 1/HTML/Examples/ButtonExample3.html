@@ -1,0 +1,45 @@
+<html>
+  <head>
+    <style>
+      html {
+        background-color: rgb(66, 133, 244);
+      }
+      #main {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      #button {
+        background-color: rgb(244, 160, 0);
+        height: 150px;
+        width: 300px;
+        font-size: 50px;
+      }
+    </style>
+    <script>
+      const pink = "rgb(244, 160, 0)";
+      const lightTurquoise = "rgb(66, 133, 244)";
+
+      const onClick = (e) => {
+        const button = document.querySelector("#button");
+        const html = document.querySelector("html");
+
+        if (button.style.backgroundColor === lightTurquoise) {
+          button.style.backgroundColor = pink;
+          html.style.backgroundColor = lightTurquoise;
+        } else {
+          button.style.backgroundColor = lightTurquoise;
+          html.style.backgroundColor = pink;
+        }
+      };
+    </script>
+  </head>
+
+  <body>
+    <div id="main">
+      <button onclick="onClick()" id="button">Change Background</button>
+    </div>
+  </body>
+</html>
