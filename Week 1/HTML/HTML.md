@@ -1,12 +1,3 @@
-<style>
-  .code-demo {
-    display: block
-    width: 100%;
-    padding: 1em;
-	  border: 5px double black;
-  }
-</style>
-
 # HTML
 
 ## To start
@@ -22,22 +13,20 @@
 
 ### Three Languages
 
-Different langauges for different purposes:
+Different languages for different purposes:
 
 - HTML (HyperText Markup Language)
   - Gives structure/shape
   - Tells browser where things go (examples: button, text)
-  - Example: add a button here
+  - Example: add a button here (<a href="Examples/ButtonExample1.html">code</a>, <a href="https://htmlpreview.github.io/?https://github.com/k3ntako/High-School-Internship/blob/html/Week%201/HTML/Examples/ButtonExample1.html">demo</a>)
 - CSS (Cascading Style Sheets)
   - Design (examples: color, size)
-  - Examples: make this button blue, make button 100px wide
+  - Examples: make this button blue, make button 100px wide (<a href="Examples/ButtonExample2.html">code</a>, <a href="https://htmlpreview.github.io/?https://github.com/k3ntako/High-School-Internship/blob/html/Week%201/HTML/Examples/ButtonExample2.html">demo</a>)
 - JavaScript
   - Makes your website do something
-  - Example: when user clicks this button change the background color to yellow
+  - Example: when user clicks this button change the background color to yellow (<a href="Examples/ButtonExample3.html">code</a>, <a href="https://htmlpreview.github.io/?https://github.com/k3ntako/High-School-Internship/blob/html/Week%201/HTML/Examples/ButtonExample3.html">demo</a>)
 
 Browsers like Chrome and Firefox will take these files and show you the website.
-
-TODO: add links to demo
 
 ## Parts of an HTML Tag
 
@@ -153,7 +142,9 @@ Change Background
 </ul>
 ```
 
-<div class="code-demo">
+TODO: Hard to tell demo. CSS does not work in Github markdown
+
+<div>
   <b>Grocery List</b>
 
   <ul>
@@ -187,7 +178,9 @@ Change Background
   </ol>
 ```
 
-<div class="code-demo">
+TODO: Hard to tell demo. CSS does not work in Github markdown
+
+<div>
   <b>Recipe</b>
 
   <ol>
@@ -227,17 +220,39 @@ The browser treats consecutive whitespace characters (space, new line, etc.) as 
 - Can be helpful when styling the page.
 - It is a block-level element.
 
+## View Source
+
+Browsers come with an ability to view a page's HTML.
+
+Right click a website and click on "View Page Source" (<kbd>⌥</kbd> + <kbd>⌘</kbd> + <kbd>U</kbd>).
+
+TODO: fix. link not working in Github
+<img src="/Images/View_Source.png" />
+
 ## Homework
 
-- Create a new folder call: TODO: figure out name
-- Find an HTML tag we didn't talk about today. See the "Resources" section below for a link to find more tags.
-- Create a website on any topic you choose. Tomorrow you will show the rest of us.
-- Tomorrow, let us know which tag you picked and how to use it.
+Your homework is to create a new website. You can choose any topic you are interested in (e.g., ) and you will present on them. Make sure you include everything in the "Requirements" section.
 
-- TODO: View source on simple site
-- TODO: cover these
-  - `<center>`
-  - `<kbd>`
+Requirements
+
+- Create your own branch. Make sure it's descriptive (e.g., `kentaro-week-1-hw`).
+- Inside your directory, create a new directory called: "Week-1-Homework". Put your new website in here.
+- Find an HTML tag we did **not** talk about today. See the "Resources" section below for a link to find more tags.
+- Make sure to include at least these tags:
+
+  - `<html>`
+  - `<head>`
+  - `<title>`
+  - `<body>`
+  - `<h1>`, `<h2>`, and `<h3>`
+  - `<p>`
+  - `<b>`
+  - `<a>`
+  - `<img>`
+  - `<ul>` or `<ol>`
+  - `<li>`
+
+- Tomorrow, let us know which tag you picked and how to use it.
 
 ## Resources
 
