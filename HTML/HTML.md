@@ -238,7 +238,7 @@ Browsers come with an ability to view a page's HTML.
 
 Right click a website and click on "View Page Source" (<kbd>⌥</kbd> + <kbd>⌘</kbd> + <kbd>U</kbd>).
 
-<img src="/Images/View_Source.png" />
+<img src="https://raw.githubusercontent.com/k3ntako/High-School-Internship/html/HTML/Images/View_Source.png" />
 
 ## Homework
 
