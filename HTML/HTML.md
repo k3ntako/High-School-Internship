@@ -105,10 +105,16 @@ Change Background
 
 ### `<img>`
 
-- Adds an image to the page
-- TODO: self closing open tag
+- Adds an image to the page.
+- It is considered a [**void element**](https://developer.mozilla.org/en-US/docs/Glossary/Void_element) and should not be closed with `/>` in HTML.
+  - However, you will see many people use a self-closing tag, which is a start tag that closes itself (see example below). They will still work just fine.
+  - Note: Self-closing tags are required in XML, XHTML, and SVG (don't worry about those!).
 
 ```
+<!-- Correct: start tag with no close tag -->
+<img src="https://example.com/images/image_1.png">
+
+<!-- Wrong (in HTML): self-closing tag -->
 <img src="https://example.com/images/image_1.png" />
 ```
 
@@ -142,7 +148,9 @@ Change Background
 </ul>
 ```
 
-TODO: Hard to tell demo. CSS does not work in Github markdown
+See below for a demo:
+
+<hr />
 
 <div>
   <b>Grocery List</b>
@@ -157,6 +165,7 @@ TODO: Hard to tell demo. CSS does not work in Github markdown
       </li>
   </ul>
 </div>
+<hr />
 
 ### `<ol>` (Ordered List)
 
@@ -178,7 +187,9 @@ TODO: Hard to tell demo. CSS does not work in Github markdown
   </ol>
 ```
 
-TODO: Hard to tell demo. CSS does not work in Github markdown
+See below for a demo:
+
+<hr />
 
 <div>
   <b>Recipe</b>
@@ -194,6 +205,7 @@ TODO: Hard to tell demo. CSS does not work in Github markdown
       <li>Enjoy with a spoon!</li>
   </ol>
 </div>
+<hr />
 
 ## Nesting
 
@@ -226,7 +238,6 @@ Browsers come with an ability to view a page's HTML.
 
 Right click a website and click on "View Page Source" (<kbd>⌥</kbd> + <kbd>⌘</kbd> + <kbd>U</kbd>).
 
-TODO: fix. link not working in Github
 <img src="/Images/View_Source.png" />
 
 ## Homework
