@@ -26,6 +26,99 @@ https://www.codecademy.com/journeys/front-end-engineer/paths/fecj-22-web-develop
 FreeCodeCamp
 https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures#basic-javascript
 
+## Comments
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Lexical_grammar#comments
+
+Line Comments
+
+```
+function comment() {
+  // This is a one line JavaScript comment
+  console.log("Hello world!");
+}
+comment();
+```
+
+Block Comments (Multi-line Comments)
+
+```
+function comment() {
+  /* This is a one line JavaScript comment */
+  console.log("Hello world!");
+
+  /*
+  This is a multi-line line
+  JavaScript comment
+  */
+
+}
+comment();
+```
+
+## Types
+
+### Number
+
+Numbers between ±(2<sup>-1074</sup> to 2<sup>1024</sup>).
+
+- Safe number: -(25<sup>3</sup> − 1) to 25<sup>3</sup> − 1
+
+```
+const myFavoriteNumber = 28;
+```
+
+### BigInt
+
+For numbers `number` can't handle.
+
+You likely won't be using this during course.
+
+```
+const myFavoriteLargeNumber = BigInt(9007199254740991);
+
+const alsoMyFavoriteLargeNumber = 9007199254740991n;
+```
+
+### String
+
+`string`s are basically texts. `string`s can have numbers in them, but they are not considered a `number`.
+
+```
+const thisIsAString = "Hello world!"
+const thisIsAlsoAString = "I live on 59th St."
+const thisIsAlsoAlsoAString = "1223" // Not a number!
+```
+
+### Boolean
+
+Booleans can only be two values: `true` or `false`. It's like saying "yes" or "no".
+
+### Symbol
+
+Symbols are used when you want a unique value.
+
+You likely won't be using this during course.
+
+### Object
+
+Key-value pairs
+
+### Undefined
+
+It indicates that a variable is not defined.
+
+```
+let myVariable;
+myVariable // returns undefined
+```
+
+### Null
+
+It indicates that there is no value.
+
+Generally, `undefined` represents a lack of value because of inaction. However, `null` signifies an intentional lack of value.
+
 Concepts:
 
 - Comments
