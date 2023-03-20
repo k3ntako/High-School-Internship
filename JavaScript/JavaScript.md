@@ -56,6 +56,44 @@ function comment() {
 comment();
 ```
 
+## Variables
+
+Variables allow computers store data dynamically.
+
+TODO: define "dynamically"
+
+### Declaring a variable
+
+Tells a variable to create a variable.
+
+```
+let myVariable;
+var yourVariable;
+```
+
+### Assign (=)
+
+You can use the assignment operator (`=`) to store a value in a variable.
+
+```
+let myVariable;
+var yourVariable;
+
+myVariable = 5;
+yourVariable = "hello";
+```
+
+### Initialize with value
+
+If you already know the value you want to assign your variable, you can declare the variable and assign it a value in one step.
+
+```
+let myVariable = 5;
+var yourVariable = "hello";
+```
+
+### Naming convention
+
 ## Types
 
 ### Number
