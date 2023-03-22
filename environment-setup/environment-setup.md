@@ -46,3 +46,55 @@ Using the command-line navigate to the `Documents` directory on your computer an
 
 ### _Extra Practice_
 Try going through the excercises in this [Codeacademy course](https://www.codecademy.com/paths/learn-how-to-build-websites/tracks/build-websites-on-your-own-computer/modules/command-line-for-building-websites/lessons/navigation/exercises/introduction)
+
+## Git and GitHub
+**Git** is a version control system – a tool that allows developers to work on different versions of the same code base at the same time. **GitHub** is a website that stores code remotely, and allows us to track changes the team has made using Git.
+
+### Getting started with GitHub
+1. Go to [github.com](https://github.com/) and click on `Sign Up`
+2. Follow the prompts to create a new account
+    - Enter your email address
+    - Create a username and password
+    - Verify your account (solve a puzzle?)
+3. Check your email for a 7-digit code to enter on the next screen
+4. Click 'Skip Personalization' to go to your dashboard
+5. Post in the team Slack channel with a link to your profile
+
+### Setting up Git locally
+1. [Download and install the latest version of Git](https://git-scm.com/downloads)
+2. Set your Git username – open Terminal and enter:
+```bash
+$ git config --global user.name "<enter your name here>"
+```
+3. Set your Git email address – in Terminal enter:
+```bash
+$ git config --global user.email "<enter your email here>"
+```
+[TODO: figure out best way to handle auth]
+4. Install Git Credential Manager to store your credentials
+```bash
+$ brew tap microsoft/git
+$ brew install --cask git-credential-manager-core
+```
+
+### Cloning the project repo
+1. On GitHub, go to [the repo for the internship](https://github.com/k3ntako/High-School-Internship)
+2. Click on the green `<> Code` button and copy the URL in the box (should be `https://github.com/k3ntako/High-School-Internship.git`)
+3. In a new Terminal window navigate to the directory you created for the internship (e.g. `2023-internship` or whatever you named it)
+4. Clone the repo with the command
+```bash
+$ git clone https://github.com/k3ntako/High-School-Internship.git
+```
+5. Use the `ls` command to confirm that a new directory was just created – you just cloned your first remote repo!
+
+## VS Code
+Visual Studio Code is the program we'll use to write and edit all of the code for this project
+
+### Setup
+1. [Download and install the app](https://code.visualstudio.com/sha/download?build=stable&os=darwin-universal)
+2. After it's finished installing, double-click on the icon in your Applications folder to open VS Code
+3. Click on the `File` menu, select `Open Folder`, then find the project repo that you cloned in the previous section
+4. You should see some files on the left side of the screen – click on `README.md` to open on the right.
+
+### Introduction
+[TODO: basic intro to the parts of vs code we'll be using - include screenshots?]
