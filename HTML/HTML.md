@@ -80,19 +80,19 @@ Browsers like Chrome and Firefox will take these files and show you the website.
 
 **HTML element** (or element) consists of a pair of HTML tags with content inside.
 
-```
+```html
 <button>Change Background</button>
 ```
 
 **Opening Tag** tells the browser where the element starts. The element name is surrounded by angle brackets (`<` and `>`).
 
-```
+```html
 <button>
 ```
 
 **Closing tag** indicates where the element ends. It looks like the opening tag but has a forward slash (`/`) in after the left angle bracket (`</`).
 
-```
+```html
 </button>
 ```
 
@@ -147,7 +147,7 @@ Change Background
 
 - A link to another page or somewhere on the current page.
 
-```
+```html
 <a href="https://example.com/>Go to Example.com</a>
 ```
 
@@ -158,7 +158,7 @@ Change Background
   - However, you will see many people use a self-closing tag, which is a start tag that closes itself (see example below). They will still work just fine.
   - Note: Self-closing tags are required in XML, XHTML, and SVG (don't worry about those!).
 
-```
+```html
 <!-- Correct: start tag with no close tag -->
 <img src="https://example.com/images/image_1.png">
 
@@ -183,7 +183,7 @@ Change Background
 - List can be nested.
 - Use `<li>` for each item.
 
-```
+```html
 <b>Grocery List</b>
 <ul>
     <li>Almond Milk</li>
@@ -221,7 +221,7 @@ See below for a demo:
 - List can be nested.
 - Use `<li>` for each item.
 
-```
+```html
   <b>Recipe</b>
   <ol>
       <li>In a bowl, mix the following cereals:
