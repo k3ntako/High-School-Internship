@@ -1,8 +1,56 @@
 # HTML
 
-## To start
+## Create a new repository
 
-- Create new folder in your folder: Portfolio
+Create it in Github
+
+1. Go to [Github](https://www.github.com)
+1. Click "New" on the left-hand side
+1. Set "Repository name" as `[your username].github.io`
+   - Make sure you get the username exactly correct and don't include the brackets (`[` and `]`)
+   - Example: `k3ntako.github.io`
+1. Click "Create repository"
+
+In your `Documents` folder, create a new folder called `Portfolio`.
+Open the Terminal app and follow the instructions below (make sure to replace `[your username]` with your username):
+
+```bash
+$ cd ~/Documents
+$ mkdir [your username].github.io
+```
+
+Initialize Git for this repo:
+
+```bash
+$ git init
+```
+
+Create a ReadMe file and add some text (`#` is not a comment here because it's inside quotes):
+
+```bash
+$ touch README.md
+$ echo "# My Portfolio" > README.md
+```
+
+Commit your HTML file to Git:
+
+```bash
+$ git add README.md
+$ git commit -m "First commit"
+```
+
+Connect this Git project to Github's repository (make sure to replace `[your username]` with your username):
+
+```bash
+$ git branch -M main
+$ git remote add origin git@github.com:[your username]/[your username].github.io.git
+```
+
+Push (or upload) the newly created commit:
+
+```bash
+$ git push origin main
+```
 
 ## Vocabulary
 
