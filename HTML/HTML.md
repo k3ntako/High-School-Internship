@@ -55,7 +55,27 @@ $ git push origin main
 ## Vocabulary
 
 - Browsers
+  - The application that allows you to visit websites.
+  - Examples: Chrome, Firefox, and Safari
 - Style/Styling
+
+  TODO: add more terms and definitions
+
+TODO: homework where should I add this? Maybe whatever session goes before this?
+
+Create an avatar online!
+
+1. Go to <https://getavataaars.com>
+1. Create am avatar that represents you
+1. Important: copy the full URL at the top of the browser. Make sure you can access it during our session (email it to yourself or save it in Google Drive).
+   - Example: <https://getavataaars.com/?avatarStyle=Circle&topType=ShortHairShortFlat&accessoriesType=Blank&hairColor=Black&facialHairType=Blank&clotheType=Hoodie&clotheColor=Blue03&eyeType=Happy&eyebrowType=DefaultNatural&mouthType=Default&skinColor=Light>
+
+TODO:
+
+- we need to talk about what a Git commit is
+  - What is a message?
+- Check if `main` or `master` is default for new accounts
+- Talk about `.gitignore`
 
 ## Overview of HTML
 
