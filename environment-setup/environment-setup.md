@@ -14,6 +14,8 @@ Says that this `jpg` image lives in a directory called `profile`, which is withi
 ### Some useful commands
 You'll be able to navigate your filesystem and perform most tasks by using some simple commands in the `Terminal` app. Whenever you see the `$` symbol, that stands for the **command prompt** - basically the place we'll enter each command to perform some task. When typing commands, **don't include the `$`.**
 
+Also, the `#` symbol creates a comment. This is how you can add a note or some bit of text that's not evaluated as code. In these examples, they just describe the command – don't enter anything starting with a `#`.
+
 Getting info
 ```bash
 $ pwd     # print working directory
@@ -53,7 +55,7 @@ Try going through the excercises in this [Codeacademy course](https://www.codeca
 ### Getting started with GitHub
 1. Go to [github.com](https://github.com/) and click on `Sign Up`
 2. Follow the prompts to create a new account
-    - Enter your email address
+    - Enter your email address (we recommend using a personal email address, so you'll have access to everything in the future)
     - Create a username and password
     - Verify your account (solve a puzzle?)
 3. Check your email for a 7-digit code to enter on the next screen
@@ -61,7 +63,12 @@ Try going through the excercises in this [Codeacademy course](https://www.codeca
 5. Post in the team Slack channel with a link to your profile
 
 ### Setting up Git locally
-1. [Download and install the latest version of Git](https://git-scm.com/downloads)
+1. Your computer should already come with Git installed – confirm by opening up Terminal and entering the command:
+```bash
+$ git --version
+```
+You should see something like `git version 2.24.3 (Apple Git-128)` (the number might be different) – if you don't see that, follow these steps to [download and install the latest version of Git](https://git-scm.com/downloads)
+
 2. Set your Git username – open Terminal and enter:
 ```bash
 $ git config --global user.name "<enter your name here>"
@@ -70,7 +77,8 @@ $ git config --global user.name "<enter your name here>"
 ```bash
 $ git config --global user.email "<enter your email here>"
 ```
-[TODO: figure out best way to handle auth]
+Both of these will be connected to any code changes you make on this computer. For the username, use either the GitHub username you created, or just your name as you'd like it to appear.
+
 4. Install Git Credential Manager to store your credentials
 ```bash
 $ brew tap microsoft/git
