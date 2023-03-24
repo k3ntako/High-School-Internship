@@ -105,4 +105,8 @@ Visual Studio Code is the program we'll use to write and edit all of the code fo
 4. You should see some files on the left side of the screen – click on `README.md` to open on the right.
 
 ### Introduction
-[TODO: basic intro to the parts of vs code we'll be using - include screenshots?]
+There are some good [intro videos on the official site](https://code.visualstudio.com/docs/getstarted/introvideos) – check out the one titled 'Getting Started' and any others that look interesting!
+
+The [Tips and Tricks](https://code.visualstudio.com/docs/getstarted/tips-and-tricks) is another good place to check out.
+
+By selecting `Help > Editor Playground` you can open an interactive overview of some of the major code editing features you'll use in VS Code.
