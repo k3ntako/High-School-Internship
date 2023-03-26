@@ -70,13 +70,6 @@ Create an avatar online!
 1. Important: copy the full URL at the top of the browser. Make sure you can access it during our session (email it to yourself or save it in Google Drive).
    - Example: <https://getavataaars.com/?avatarStyle=Circle&topType=ShortHairShortFlat&accessoriesType=Blank&hairColor=Black&facialHairType=Blank&clotheType=Hoodie&clotheColor=Blue03&eyeType=Happy&eyebrowType=DefaultNatural&mouthType=Default&skinColor=Light>
 
-TODO:
-
-- we need to talk about what a Git commit is
-  - What is a message?
-- Check if `main` or `master` is default for new accounts
-- Talk about `.gitignore`
-
 ## Overview of HTML
 
 ### Three Languages
@@ -310,7 +303,9 @@ Right click a website and click on "View Page Source" (<kbd>⌥</kbd> + <kbd>⌘
 
 ## Homework
 
-Your homework is to create a new website. You can choose any topic you are interested in (e.g., ) and you will present on them. Make sure you include everything in the "Requirements" section.
+### Create a website
+
+Your homework is to create a new website. You can choose any topic you are interested in (e.g., hobby or a country or something you learned at school) and you will present on them. Make sure you include everything in the "Requirements" section.
 
 Requirements
 
@@ -332,6 +327,11 @@ Requirements
   - `<li>`
 
 - Tomorrow, let us know which tag you picked and how to use it.
+
+### Codecademy
+
+1. Create a [Codecademy account](https://www.codecademy.com/).
+2. Work through as many lessons as you can on [Introduction to HTML](https://www.codecademy.com/courses/learn-html/lessons/intro-to-html/exercises/intro). No need to finish all 16 lessons.
 
 ## Resources
 
