@@ -22,7 +22,10 @@ Where: [Zoom](https://8thlight.zoom.us/j/86772811211?pwd=MnJLOVRmdExYUkdTb1B5VUd
 
 ### Cheat Sheets
 
-TODO
+#### HTML
+
+- [Codecademy - Elements](https://www.codecademy.com/resources/docs/html/elements)
+- [MDN - HTML elements reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
 
 ## Communication
 
