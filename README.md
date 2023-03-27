@@ -6,7 +6,7 @@ March 28th - June 2nd
 
 When: Monday - Friday 1:15pm-2:15pm
 
-Where: [Zoom](https://8thlight.zoom.us/j/86772811211?pwd=MnJLOVRmdExYUkdTb1B5VUdmbTVIUT09)
+Where: Zoom
 
 ## Course Overview
 
