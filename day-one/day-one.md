@@ -33,9 +33,9 @@ GitHub is a website we'll use to keep all of our code for this project in one pl
 1. Click 'Skip Personalization' to go to your dashboard
 1. Post in the team Slack `#general` channel with a link to your profile
 
-## Codeacademy
+## Codecademy
 They have lots of free courses we can use to get extra practice throughout the internship – and to help you keep learning after we're done!
-1. Go to [codeacademy.com](https://www.codecademy.com/) and complete the signup process
+1. Go to [codecademy.com](https://www.codecademy.com/) and complete the signup process
 
 ## freeCodeCamp
 This is another great free resource for learning lots of programming languages and concepts.
