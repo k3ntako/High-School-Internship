@@ -100,6 +100,7 @@ $ git clone https://github.com/k3ntako/High-School-Internship.git
 Visual Studio Code is the program we'll use to write and edit all of the code for this project
 
 ### Setup
+**NOTE:** If you already completed the first step on day one, skip to step `2.`
 1. [Download and install the app](https://code.visualstudio.com/sha/download?build=stable&os=darwin-universal)
 2. After it's finished installing, double-click on the icon in your Applications folder to open VS Code
 3. Click on the `File` menu, select `Open Folder`, then find the project repo that you cloned in the previous section

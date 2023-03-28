@@ -18,6 +18,10 @@ We'll use Slack to communicate with each other when we're not in meetings. To se
 1. Once the code is accepted, you should be promted to `Open in Slack` – click that link to open the Slack app
 1. Post an introduction in the `#general` channel! (or a meme in the `#random` channel)
 
+## VS Code
+This is the code editor we'll use to write all of the code for our projects.
+1. [Download and install the app](https://code.visualstudio.com/sha/download?build=stable&os=darwin-universal)
+
 ## GitHub
 GitHub is a website we'll use to keep all of our code for this project in one place.
 1. Go to [github.com](https://github.com/) and click on `Sign Up`
