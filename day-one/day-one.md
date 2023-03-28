@@ -51,3 +51,10 @@ We'll be using an avatar for our personal webpages – create one here:
 1. Important: copy the full URL at the top of the browser
    - Example: <https://getavataaars.com/?avatarStyle=Circle&topType=ShortHairShortFlat&accessoriesType=Blank&hairColor=Black&facialHairType=Blank&clotheType=Hoodie&clotheColor=Blue03&eyeType=Happy&eyebrowType=DefaultNatural&mouthType=Default&skinColor=Light>
 1. Paste the URL you just copied in our [shared document in Google Drive](https://drive.google.com/drive/folders/11W5qbx_MSDHMyTFXNIToxMuUBLuTOo0b?usp=share_link) – if you need to request access, we'll add you after you submit the request
+
+## Videos
+Here are a few videos to watch to get us ready for some of the topics we'll be talking about in the first week or so. Don't worry if you don't understand everything in them! Make a note of any questions you have and we can talk about them tomorrow.
+
+1. [How to use the Command Line](https://youtu.be/5XgBd6rjuDQ) A basic introdution to using the Terminal app and the Command Line – try following along if you'd like!
+1. [Git tutorial for beginners](https://youtu.be/8JJ101D3knE) We'll be using Git to keep all of our code up-to-date as we work on our projects. This video is pretty long, and a little more technical, so just watch as much as you can (and don't worry about memorizing everything, etc)!
+1. [How does the internet work?](https://youtu.be/TNQsmPf24go) We're going to be building websites, but before that – let's find out: how does all of this actually work?
