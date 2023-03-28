@@ -55,6 +55,6 @@ We'll be using an avatar for our personal webpages – create one here:
 ## Videos
 Here are a few videos to watch to get us ready for some of the topics we'll be talking about in the first week or so. Don't worry if you don't understand everything in them! Make a note of any questions you have and we can talk about them tomorrow.
 
+1. [How does the internet work?](https://youtu.be/TNQsmPf24go) We're going to be building websites, but before that – let's find out: how does all of this actually work?
 1. [How to use the Command Line](https://youtu.be/5XgBd6rjuDQ) A basic introdution to using the Terminal app and the Command Line – try following along if you'd like!
 1. [Git tutorial for beginners](https://youtu.be/8JJ101D3knE) We'll be using Git to keep all of our code up-to-date as we work on our projects. This video is pretty long, and a little more technical, so just watch as much as you can (and don't worry about memorizing everything, etc)!
-1. [How does the internet work?](https://youtu.be/TNQsmPf24go) We're going to be building websites, but before that – let's find out: how does all of this actually work?
