@@ -53,6 +53,7 @@ Try going through the excercises in this [Codeacademy course](https://www.codeca
 **Git** is a version control system – a tool that allows developers to work on different versions of the same code base at the same time. **GitHub** is a website that stores code remotely, and allows us to track changes the team has made using Git.
 
 ### Getting started with GitHub
+**NOTE:** If you already completed these steps on day one, skip to the next section `Setting up Git locally`
 1. Go to [github.com](https://github.com/) and click on `Sign Up`
 2. Follow the prompts to create a new account
     - Enter your email address (we recommend using a personal email address, so you'll have access to everything in the future)
@@ -99,6 +100,7 @@ $ git clone https://github.com/k3ntako/High-School-Internship.git
 Visual Studio Code is the program we'll use to write and edit all of the code for this project
 
 ### Setup
+**NOTE:** If you already completed the first step on day one, skip to step `2.`
 1. [Download and install the app](https://code.visualstudio.com/sha/download?build=stable&os=darwin-universal)
 2. After it's finished installing, double-click on the icon in your Applications folder to open VS Code
 3. Click on the `File` menu, select `Open Folder`, then find the project repo that you cloned in the previous section
