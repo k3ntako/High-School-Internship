@@ -58,3 +58,14 @@ Here are a few videos to watch to get us ready for some of the topics we'll be t
 1. [How does the internet work?](https://youtu.be/TNQsmPf24go) We're going to be building websites, but before that – let's find out: how does all of this actually work?
 1. [How to use the Command Line](https://youtu.be/5XgBd6rjuDQ) A basic introdution to using the Terminal app and the Command Line – try following along if you'd like!
 1. [Git tutorial for beginners](https://youtu.be/8JJ101D3knE) We'll be using Git to keep all of our code up-to-date as we work on our projects. This video is pretty long, and a little more technical, so just watch as much as you can (and don't worry about memorizing everything, etc)!
+
+# Homework Day 2
+In addition to trying the command line exercise in `environment-setup/environment-setup.md`, here are a few readings/videos to check out for today:
+
+## Reading
+1. [Git and GitHub for Beginners](https://www.freecodecamp.org/news/git-and-github-for-beginners/) - Intro to Git, version control, and GitHub. Don't worry about running the commands as you follow along since we haven't set Git up yet
+1. [HTML Fundamentals Course](https://www.codecademy.com/learn/learn-html-fundamentals) - We'll be getting into HTML soon in a lot more detail, but try out this intro course to get familiar with some of the basic concepts
+
+## Videos
+1. [Learn VS Code](https://www.youtube.com/watch?v=B-s71n0dHUk) - Official tutorial for VS Code
+1. [HTML Crash Course](https://www.youtube.com/watch?v=qz0aGYrrlhU) - Intro to HTML (it's another long one, so watch as much as you can and don't worry about memorizing everything)!

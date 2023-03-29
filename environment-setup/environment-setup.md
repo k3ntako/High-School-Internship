@@ -16,6 +16,7 @@ You'll be able to navigate your filesystem and perform most tasks by using some 
 
 Also, the `#` symbol creates a comment. This is how you can add a note or some bit of text that's not evaluated as code. In these examples, they just describe the command – don't enter anything starting with a `#`.
 
+### Mac/Linux versions
 Getting info
 ```bash
 $ pwd     # print working directory
@@ -32,19 +33,38 @@ Working with files
 $ mkdir   # make (new) directory
 $ touch   # create new file
 ```
+
+### Windows versions
+Getting info
+```bash
+$ chdir         # print working directory
+$ dir           # list files in current directory
+```
+Moving around
+```bash
+$ cd            # change directory
+$ cd ..         # move up one level
+$ cd ~          # go to your home directory
+```
+Working with files
+```bash
+$ md            # make (new) directory
+$ type NUL >    # create new file e.g. type NUL > new_file.txt
+```
 ## Excercise!
 Using the command-line navigate to the `Documents` directory on your computer and create a new directory for this internship.
 1. Open the `Terminal` app - open a new `Finder` window, click on the `Applications` directory, then in `Utilities`, double-click on `Terminal`
-2. Print the name of the current directory with the command `pwd`
+    - On Windows, open `Command Prompt`
+2. Print the name of the current directory with the command `pwd` (`chdir` on Windows)
 3. Change to the root directory with the command `cd ~`
-4. List the current files and directories with the command `ls`
+4. List the current files and directories with the command `ls` (`dir` on Windows)
 5. Change into the `Documents` directory with the command `cd Documents/`
-6. Create a new directory for this project with the command `mkdir 2023-internship` (feel free to use another name if you prefer)
-7. Use the `ls` command to confirm that the new directory was created
+6. Create a new directory for this project with the command `mkdir 2023-internship` (`md 2023-internship` on Windows) – feel free to use another name if you prefer
+7. Use the `ls` (`dir` on Windows) command to confirm that the new directory was created
 8. Change into the directory you just created
-9. Create a new text file with the command `touch hello.txt`
+9. Create a new text file with the command `touch hello.txt` (`type NUL > hello.txt` on Windows)
 10. Write a greeting to the file you just created with the command `echo "Hello world!" > hello.txt`
-11. Open that file with the command `open hello.txt`
+11. Open that file with the command `open hello.txt` (`hello.txt` on Windows)
 
 ### _Extra Practice_
 Try going through the excercises in this [Codeacademy course](https://www.codecademy.com/paths/learn-how-to-build-websites/tracks/build-websites-on-your-own-computer/modules/command-line-for-building-websites/lessons/navigation/exercises/introduction)
