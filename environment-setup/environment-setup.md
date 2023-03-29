@@ -16,6 +16,7 @@ You'll be able to navigate your filesystem and perform most tasks by using some 
 
 Also, the `#` symbol creates a comment. This is how you can add a note or some bit of text that's not evaluated as code. In these examples, they just describe the command – don't enter anything starting with a `#`.
 
+### Mac/Linux versions
 Getting info
 ```bash
 $ pwd     # print working directory
@@ -31,6 +32,24 @@ Working with files
 ```bash
 $ mkdir   # make (new) directory
 $ touch   # create new file
+```
+
+### Windows versions
+Getting info
+```bash
+$ chdir         # print working directory
+$ dir           # list files in current directory
+```
+Moving around
+```bash
+$ cd            # change directory
+$ cd ..         # move up one level
+$ cd ~          # go to your home directory
+```
+Working with files
+```bash
+$ md            # make (new) directory
+$ type NUL >    # create new file e.g. type NUL > new_file.txt
 ```
 ## Excercise!
 Using the command-line navigate to the `Documents` directory on your computer and create a new directory for this internship.
