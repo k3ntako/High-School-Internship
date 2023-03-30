@@ -11,7 +11,7 @@ Create it in Github
    - Example: `k3ntako.github.io`
 1. Click "Create repository"
 
-In your `Documents` folder, create a new folder called `Portfolio`.
+In your `Documents` folder, create a new folder called `Profile`.
 Open the Terminal app and follow the instructions below (make sure to replace `[your username]` with your username):
 
 ```bash
@@ -29,7 +29,7 @@ Create a ReadMe file and add some text (`#` is not a comment here because it's i
 
 ```bash
 $ touch README.md
-$ echo "# My Portfolio" > README.md
+$ echo "# My Profile" > README.md
 ```
 
 Commit your HTML file to Git:
@@ -289,10 +289,9 @@ Right click a website and click on "View Page Source" (<kbd>⌥</kbd> + <kbd>⌘
 
 Your homework is to create a new website. You can choose any topic you are interested in (e.g., hobby or a country or something you learned at school) and you will present on them. Make sure you include everything in the "Requirements" section.
 
-Requirements
+#### Requirements
 
-- Create your own branch. Make sure it's descriptive (e.g., `kentaro-week-1-hw`).
-- Inside your directory, create a new directory called: "Week-1-Homework". Put your new website in here.
+- Create a file called `profile.html` in the project folder (`[your username].github.io`) we created earlier.
 - Find an HTML tag we did **not** talk about today. See the "Resources" section below for a link to find more tags.
 - Make sure to include at least these tags:
 
@@ -308,16 +307,17 @@ Requirements
   - `<ul>` or `<ol>`
   - `<li>`
 
-- Tomorrow, let us know which tag you picked and how to use it.
+- During the next class, let us know which tag you picked and how to use it.
+- Ask for help if you get stuck!
 
 ### Codecademy
 
-Continue working on the [HTML Fundamentals Course](https://www.codecademy.com/learn/learn-html-fundamentals). No need to finish all of it.
+If you finish the website early, continue working on the [HTML Fundamentals Course](https://www.codecademy.com/learn/learn-html-fundamentals). No need to finish all of it.
 
 ### Khan Academy
 
 I think the assignments above should be enough to fill your time, but if you still have time try this [Khan Academy course](https://www.khanacademy.org/computing/computer-programming/html-css/intro-to-html/v/making-webpages-intro).
-It will be a little repetitive but repetition should help you retain the information better.
+It will be a little repetitive, but repetition should help you retain the information better.
 
 ## Resources
 
