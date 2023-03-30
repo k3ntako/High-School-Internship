@@ -52,6 +52,10 @@ Push (or upload) the newly created commit:
 $ git push origin main
 ```
 
+Go to Github to see if your files are there.
+
+Create a new file called `index.html` in the same directory as `README.md`.
+
 ## Overview of HTML
 
 ### Three Languages
