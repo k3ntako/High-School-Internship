@@ -43,7 +43,7 @@ Connect this Git project to Github's repository (make sure to replace `[your use
 
 ```bash
 $ git branch -M main
-$ git remote add origin git@github.com:[your username]/[your username].github.io.git
+$ git remote add origin https://github.com/[your username]/[your username].github.io.git
 ```
 
 Push (or upload) the newly created commit:
