@@ -52,24 +52,6 @@ Push (or upload) the newly created commit:
 $ git push origin main
 ```
 
-## Vocabulary
-
-- Browsers
-  - The application that allows you to visit websites.
-  - Examples: Chrome, Firefox, and Safari
-- Style/Styling
-
-  TODO: add more terms and definitions
-
-TODO: homework where should I add this? Maybe whatever session goes before this?
-
-Create an avatar online!
-
-1. Go to <https://getavataaars.com>
-1. Create am avatar that represents you
-1. Important: copy the full URL at the top of the browser. Make sure you can access it during our session (email it to yourself or save it in Google Drive).
-   - Example: <https://getavataaars.com/?avatarStyle=Circle&topType=ShortHairShortFlat&accessoriesType=Blank&hairColor=Black&facialHairType=Blank&clotheType=Hoodie&clotheColor=Blue03&eyeType=Happy&eyebrowType=DefaultNatural&mouthType=Default&skinColor=Light>
-
 ## Overview of HTML
 
 ### Three Languages
@@ -330,8 +312,12 @@ Requirements
 
 ### Codecademy
 
-1. Create a [Codecademy account](https://www.codecademy.com/).
-2. Work through as many lessons as you can on [Introduction to HTML](https://www.codecademy.com/courses/learn-html/lessons/intro-to-html/exercises/intro). No need to finish all 16 lessons.
+Continue working on the [HTML Fundamentals Course](https://www.codecademy.com/learn/learn-html-fundamentals). No need to finish all of it.
+
+### Khan Academy
+
+I think the assignments above should be enough to fill your time, but if you still have time try this [Khan Academy course](https://www.khanacademy.org/computing/computer-programming/html-css/intro-to-html/v/making-webpages-intro).
+It will be a little repetitive but repetition should help you retain the information better.
 
 ## Resources
 
