@@ -1,13 +1,60 @@
 # HTML
 
-## To start
+## Create a new repository
 
-- Create new folder in your folder: Portfolio
+Create it in Github
 
-## Vocabulary
+1. Go to [Github](https://www.github.com)
+1. Click "New" on the left-hand side
+1. Set "Repository name" as `[your username].github.io`
+   - Make sure you get the username exactly correct and don't include the brackets (`[` and `]`)
+   - Example: `k3ntako.github.io`
+1. Click "Create repository"
 
-- Browsers
-- Style/Styling
+In your `Documents` folder, create a new folder called `Profile`.
+Open the Terminal app and follow the instructions below (make sure to replace `[your username]` with your username):
+
+```bash
+$ cd ~/Documents
+$ mkdir [your username].github.io
+```
+
+Initialize Git for this repo:
+
+```bash
+$ git init
+```
+
+Create a ReadMe file and add some text (`#` is not a comment here because it's inside quotes):
+
+```bash
+$ touch README.md
+$ echo "# My Profile" > README.md
+```
+
+Commit your HTML file to Git:
+
+```bash
+$ git add README.md
+$ git commit -m "First commit"
+```
+
+Connect this Git project to Github's repository (make sure to replace `[your username]` with your username):
+
+```bash
+$ git branch -M main
+$ git remote add origin https://github.com/[your username]/[your username].github.io.git
+```
+
+Push (or upload) the newly created commit:
+
+```bash
+$ git push origin main
+```
+
+Go to Github to see if your files are there.
+
+Create a new file called `index.html` in the same directory as `README.md`.
 
 ## Overview of HTML
 
@@ -242,12 +289,13 @@ Right click a website and click on "View Page Source" (<kbd>⌥</kbd> + <kbd>⌘
 
 ## Homework
 
-Your homework is to create a new website. You can choose any topic you are interested in (e.g., ) and you will present on them. Make sure you include everything in the "Requirements" section.
+### Create a website
 
-Requirements
+Your homework is to create a new website. You can choose any topic you are interested in (e.g., hobby or a country or something you learned at school) and you will present on them. Make sure you include everything in the "Requirements" section.
 
-- Create your own branch. Make sure it's descriptive (e.g., `kentaro-week-1-hw`).
-- Inside your directory, create a new directory called: "Week-1-Homework". Put your new website in here.
+#### Requirements
+
+- Create a file called `profile.html` in the project folder (`[your username].github.io`) we created earlier.
 - Find an HTML tag we did **not** talk about today. See the "Resources" section below for a link to find more tags.
 - Make sure to include at least these tags:
 
@@ -263,7 +311,17 @@ Requirements
   - `<ul>` or `<ol>`
   - `<li>`
 
-- Tomorrow, let us know which tag you picked and how to use it.
+- During the next class, let us know which tag you picked and how to use it.
+- Ask for help if you get stuck!
+
+### Codecademy
+
+If you finish the website early, continue working on the [HTML Fundamentals Course](https://www.codecademy.com/learn/learn-html-fundamentals). No need to finish all of it.
+
+### Khan Academy
+
+I think the assignments above should be enough to fill your time, but if you still have time try this [Khan Academy course](https://www.khanacademy.org/computing/computer-programming/html-css/intro-to-html/v/making-webpages-intro).
+It will be a little repetitive, but repetition should help you retain the information better.
 
 ## Resources
 
