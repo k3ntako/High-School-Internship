@@ -17,6 +17,7 @@ Open the Terminal app and follow the instructions below (make sure to replace `[
 ```bash
 $ cd ~/Documents
 $ mkdir [your username].github.io
+$ cd [your username].github.io
 ```
 
 Initialize Git for this repo:
