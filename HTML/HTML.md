@@ -65,13 +65,13 @@ Different languages for different purposes:
 - HTML (HyperText Markup Language)
   - Gives structure/shape
   - Tells browser where things go (examples: button, text)
-  - Example: add a button here (<a href="Examples/ButtonExample1.html">code</a>, <a href="https://htmlpreview.github.io/?https://github.com/k3ntako/High-School-Internship/blob/html/HTML/Examples/ButtonExample1.html">demo</a>)
+  - Example: add a button here (<a href="Examples/ButtonExample1.html">code</a>, <a href="https://htmlpreview.github.io/?https://github.com/k3ntako/High-School-Internship/blob/main/HTML/Examples/ButtonExample1.html">demo</a>)
 - CSS (Cascading Style Sheets)
   - Design (examples: color, size)
-  - Examples: make this button blue, make button 100px wide (<a href="Examples/ButtonExample2.html">code</a>, <a href="https://htmlpreview.github.io/?https://github.com/k3ntako/High-School-Internship/blob/html/HTML/Examples/ButtonExample2.html">demo</a>)
+  - Examples: make this button blue, make button 100px wide (<a href="Examples/ButtonExample2.html">code</a>, <a href="https://htmlpreview.github.io/?https://github.com/k3ntako/High-School-Internship/blob/main/HTML/Examples/ButtonExample2.html">demo</a>)
 - JavaScript
   - Makes your website do something
-  - Example: when user clicks this button change the background color to yellow (<a href="Examples/ButtonExample3.html">code</a>, <a href="https://htmlpreview.github.io/?https://github.com/k3ntako/High-School-Internship/blob/html/HTML/Examples/ButtonExample3.html">demo</a>)
+  - Example: when user clicks this button change the background color to yellow (<a href="Examples/ButtonExample3.html">code</a>, <a href="https://htmlpreview.github.io/?https://github.com/k3ntako/High-School-Internship/blob/main/HTML/Examples/ButtonExample3.html">demo</a>)
 
 Browsers like Chrome and Firefox will take these files and show you the website.
 
