@@ -148,7 +148,7 @@ Change Background
 - A link to another page or somewhere on the current page.
 
 ```
-<a href="https://example.com/>Go to Example.com</a>
+<a href="https://example.com/">Go to Example.com</a>
 ```
 
 ### `<img>`
