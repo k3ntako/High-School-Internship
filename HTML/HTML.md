@@ -180,7 +180,7 @@ You can also embed local images using the following:
 
 To include an image using the `<img>` tag, you need to get the URL to the image, not the website. Using `google.com` for the image will not work.
 
-To get the URL you can right click (or control click) on the image and click "Copy Image Address" or "Open Image in New Tab". You should now be able to paste the URL to your project.
+To get the URL you can right click (or control click) on the image and click "Copy Image Address" or "Open Image in New Tab". You should now be able to paste the URL to your project. Here's how you would get the URL for the Google logo at `google.com`:
 
 <img src="https://raw.githubusercontent.com/k3ntako/High-School-Internship/main/HTML/Images/google-copy-image-address.png" />
 
