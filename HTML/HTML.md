@@ -151,6 +151,10 @@ Change Background
 <a href="https://example.com/">Go to Example.com</a>
 ```
 
+```html
+<a href="pages/second-page.html">Go to Second Page</a>
+```
+
 ### `<img>`
 
 - Adds an image to the page.
