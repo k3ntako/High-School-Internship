@@ -98,7 +98,7 @@ Browsers like Chrome and Firefox will take these files and show you the website.
 
 **Content** is what is inside the tags. It can be text or other elements.
 
-```
+```html
 Change Background
 ```
 
@@ -148,7 +148,7 @@ Change Background
 - A link to another page or somewhere on the current page.
 
 ```html
-<a href="https://example.com/>Go to Example.com</a>
+<a href="https://example.com/">Go to Example.com</a>
 ```
 
 ### `<img>`
@@ -160,11 +160,35 @@ Change Background
 
 ```html
 <!-- Correct: start tag with no close tag -->
-<img src="https://example.com/images/image_1.png">
+<img src="https://example.com/images/image_1.png" />
 
 <!-- Wrong (in HTML): self-closing tag -->
 <img src="https://example.com/images/image_1.png" />
 ```
+
+You can also embed local images using the following:
+
+```html
+<img src="images/image_1.png" />
+```
+
+#### Getting an image's URL
+
+To include an image using the `<img>` tag, you need to get the URL to the image, not the website. Using `google.com` for the image will not work.
+
+To get the URL you can right click (or control click) on the image and click "Copy Image Address" or "Open Image in New Tab". You should now be able to paste the URL to your project. Here's how you would get the URL for the Google logo at `google.com`:
+
+<img src="https://raw.githubusercontent.com/k3ntako/High-School-Internship/main/HTML/Images/google-copy-image-address.png" />
+
+Note: be careful of an image's copyright. It should be okay while you're just learning to develop websites, but in the future keep in mind which images are okay to use.
+
+Here are some places where you might find free images. Make sure to check the license before you use images:
+
+- [Unsplash](https://unsplash.com/)
+- [Pexels](https://www.pexels.com/)
+- [Wikimedia Commons](https://commons.wikimedia.org/wiki/Main_Page)
+- [Wikipedia - Public domain image resources](https://en.wikipedia.org/wiki/Wikipedia:Public_domain_image_resources)
+- Google "free stock photos"
 
 ## Attributes
 
@@ -186,13 +210,14 @@ Change Background
 ```html
 <b>Grocery List</b>
 <ul>
-    <li>Almond Milk</li>
-    <li>Fruits
-        <ul>
-            <li>Apples</li>
-            <li>Oranges</li>
-        </ul>
-    </li>
+  <li>Almond Milk</li>
+  <li>
+    Fruits
+    <ul>
+      <li>Apples</li>
+      <li>Oranges</li>
+    </ul>
+  </li>
 </ul>
 ```
 
