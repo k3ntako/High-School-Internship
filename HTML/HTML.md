@@ -87,7 +87,7 @@ Browsers like Chrome and Firefox will take these files and show you the website.
 **Opening Tag** tells the browser where the element starts. The element name is surrounded by angle brackets (`<` and `>`).
 
 ```html
-<button></button>
+<button>
 ```
 
 **Closing tag** indicates where the element ends. It looks like the opening tag but has a forward slash (`/`) in after the left angle bracket (`</`).
@@ -152,7 +152,7 @@ Change Background
 ```
 
 ```html
-<a href="pages/second-page.html">Go to Example.com</a>
+<a href="pages/second-page.html">Go to Second Page</a>
 ```
 
 ### `<img>`
@@ -251,18 +251,17 @@ See below for a demo:
 - Use `<li>` for each item.
 
 ```html
-<b>Recipe</b>
-<ol>
-  <li>
-    In a bowl, mix the following cereals:
-    <ul>
-      <li>Frosted Flakes</li>
-      <li>Honey Nut Cheerios</li>
-    </ul>
-  </li>
-  <li>Add the almond milk</li>
-  <li>Enjoy with a spoon!</li>
-</ol>
+  <b>Recipe</b>
+  <ol>
+      <li>In a bowl, mix the following cereals:
+          <ul>
+              <li>Frosted Flakes</li>
+              <li>Honey Nut Cheerios</li>
+          </ul>
+      </li>
+      <li>Add the almond milk</li>
+      <li>Enjoy with a spoon!</li>
+  </ol>
 ```
 
 See below for a demo:
