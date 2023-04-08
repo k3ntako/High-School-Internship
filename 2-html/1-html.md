@@ -66,13 +66,13 @@ Different languages for different purposes:
 - HTML (HyperText Markup Language)
   - Gives structure/shape
   - Tells browser where things go (examples: button, text)
-  - Example: add a button here (<a href="Examples/ButtonExample1.html">code</a>, <a href="https://htmlpreview.github.io/?https://github.com/k3ntako/High-School-Internship/blob/main/HTML/Examples/ButtonExample1.html">demo</a>)
+  - Example: add a button here (<a href="examples/button-example-1.html">code</a>, <a href="https://htmlpreview.github.io/?https://github.com/k3ntako/High-School-Internship/blob/main/HTML/examples/button-example-1.html">demo</a>)
 - CSS (Cascading Style Sheets)
   - Design (examples: color, size)
-  - Examples: make this button blue, make button 100px wide (<a href="Examples/ButtonExample2.html">code</a>, <a href="https://htmlpreview.github.io/?https://github.com/k3ntako/High-School-Internship/blob/main/HTML/Examples/ButtonExample2.html">demo</a>)
+  - Examples: make this button blue, make button 100px wide (<a href="examples/button-example-2.html">code</a>, <a href="https://htmlpreview.github.io/?https://github.com/k3ntako/High-School-Internship/blob/main/HTML/examples/button-example-2.html">demo</a>)
 - JavaScript
   - Makes your website do something
-  - Example: when user clicks this button change the background color (<a href="Examples/ButtonExample3.html">code</a>, <a href="https://htmlpreview.github.io/?https://github.com/k3ntako/High-School-Internship/blob/main/HTML/Examples/ButtonExample3.html">demo</a>)
+  - Example: when user clicks this button change the background color (<a href="examples/button-example-3.html">code</a>, <a href="https://htmlpreview.github.io/?https://github.com/k3ntako/High-School-Internship/blob/main/HTML/examples/button-example-3.html">demo</a>)
 
 Browsers like Chrome and Firefox will take these files and show you the website.
 
@@ -182,7 +182,7 @@ To include an image using the `<img>` tag, you need to get the URL to the image,
 
 To get the URL you can right click (or control click) on the image and click "Copy Image Address" or "Open Image in New Tab". You should now be able to paste the URL to your project. Here's how you would get the URL for the Google logo at `google.com`:
 
-<img src="https://raw.githubusercontent.com/k3ntako/High-School-Internship/main/HTML/Images/google-copy-image-address.png" />
+<img src="https://raw.githubusercontent.com/k3ntako/High-School-Internship/main/2-html/images/google-copy-image-address.png" />
 
 Note: be careful of an image's copyright. It should be okay while you're just learning to develop websites, but in the future keep in mind which images are okay to use.
 
@@ -251,17 +251,18 @@ See below for a demo:
 - Use `<li>` for each item.
 
 ```html
-  <b>Recipe</b>
-  <ol>
-      <li>In a bowl, mix the following cereals:
-          <ul>
-              <li>Frosted Flakes</li>
-              <li>Honey Nut Cheerios</li>
-          </ul>
-      </li>
-      <li>Add the almond milk</li>
-      <li>Enjoy with a spoon!</li>
-  </ol>
+<b>Recipe</b>
+<ol>
+  <li>
+    In a bowl, mix the following cereals:
+    <ul>
+      <li>Frosted Flakes</li>
+      <li>Honey Nut Cheerios</li>
+    </ul>
+  </li>
+  <li>Add the almond milk</li>
+  <li>Enjoy with a spoon!</li>
+</ol>
 ```
 
 See below for a demo:
@@ -315,7 +316,7 @@ Browsers come with an ability to view a page's HTML.
 
 Right click a website and click on "View Page Source" (<kbd>⌥</kbd> + <kbd>⌘</kbd> + <kbd>U</kbd>).
 
-<img src="https://raw.githubusercontent.com/k3ntako/High-School-Internship/main/HTML/Images/View_Source.png" />
+<img src="https://raw.githubusercontent.com/k3ntako/High-School-Internship/main/2-html/images/view-source.png" />
 
 ## Homework
 

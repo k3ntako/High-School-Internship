@@ -54,7 +54,7 @@
 
 1. When you clone repositories, make sure you select SSH
 
-   <img src="https://raw.githubusercontent.com/k3ntako/High-School-Internship/ssh/environment-setup/images/clone-ssh.png" />
+   <img src="https://raw.githubusercontent.com/k3ntako/High-School-Internship/ssh/1-environment-setup/images/clone-ssh.png" />
 
 1. Try pushing your changes to Github
 
