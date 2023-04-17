@@ -91,16 +91,16 @@ Then in `index.html` you can link to the external style sheet:
 
 ```html
 <!DOCTYPE html>
-  <html>
-    <head>
-      <link rel="stylesheet" href="style.css">
-    </head>
-  <body>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
     <h1>This is a heading</h1>
     <p>This is a paragraph.</p>
 
-  </body>
+</body>
 </html>
 ```
 In `style.css` you add the rulesets to be applied above
@@ -123,9 +123,9 @@ The internal style sheet is defined inside the `<style>` element, in the `<head>
 To achieve the same styling as the previous example, this time we add the internal style sheet directly to `index.html`
 ```html
 <!DOCTYPE html>
-  <html>
-    <head>
-      <style>
+<html>
+<head>
+    <style>
         body {
           background-color: lightblue;
         }
@@ -134,14 +134,14 @@ To achieve the same styling as the previous example, this time we add the intern
           color: navy;
           margin-left: 20px;
         }
-      </style>
-    </head>
-  <body>
+    </style>
+</head>
+<body>
 
     <h1>This is a heading</h1>
     <p>This is a paragraph.</p>
 
-  </body>
+</body>
 </html>
 ```
 
