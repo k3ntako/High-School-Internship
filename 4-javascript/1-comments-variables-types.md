@@ -4,6 +4,8 @@
 
 It allows you to write code and run it very quickly without having to create files. You can run it on your Terminal using Node, but for now let's use one online: [replit](https://replit.com/languages/javascript).
 
+Throughout these lessons, try running the code by copying each example into the REPL.
+
 ## Console.log
 
 Prints one or more values (text, number, objects, etc.) to the console.
