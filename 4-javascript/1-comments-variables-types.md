@@ -281,6 +281,8 @@ boat.website = "https://en.wikipedia.org/wiki/Boaty_McBoatface";
 console.log("Boat's website:" boat.website);
 ```
 
+TODO: walkthrough of a example problem together. LiveShare?
+
 ## Homework
 
 **Codecademy**
