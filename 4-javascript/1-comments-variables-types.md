@@ -19,18 +19,18 @@ console.log("I am", 18, "years old");
 
 Many languages have semicolons (`;`) to indicate the end of a statement. It's similar to a period after a sentence.
 
-In JavaScript, it's mostly optional, so don't worry to much about it.
+In JavaScript, it's mostly optional, so don't worry too much about it.
 
 ## Comments
 
-Line Comments
+### Line Comments
 
 ```javascript
 // This is a one line JavaScript comment
 console.log("Hello world!");
 ```
 
-Block Comments (Multi-line Comments)
+### Block Comments (Multi-line Comments)
 
 ```javascript
 /* This is a one line JavaScript comment */
@@ -44,7 +44,8 @@ console.log("Hello world!");
 
 ## Variables
 
-Variables allow computers store data dynamically ("dynamically" means the data can change). I like to think of them as boxes that can store different data (e.g., username, message to another user).
+Variables allow computers store data dynamically ("dynamically" means the data can change). I like to think of them as boxes that can store different data.
+For example, username is different for each user. We want to be able to handle different situations.
 
 <img src="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Variables/boxes.png">
 
@@ -57,13 +58,11 @@ Variables on their own cannot do too many things. They can:
 - Update the value of a variable
 - Get the value of a variables
 
-Make sure you use a descriptive name for you variable. Just like a box, it's convienent if the variable is labeled. You wouldn't have to look inside to know what types of data is held by a variable.
-
-https://www.codecademy.com/courses/introduction-to-javascript/lessons/variables/exercises/intro-variables
+Make sure you use a descriptive name for you variable. Just like a box, it's help if the variable is labeled. You wouldn't have to look inside to know what types of data is held by a variable.
 
 ### Declaring a variable
 
-Creates a variable. No value (data) is assigned yet (it's an empty box).
+`var` and `let` each create a variable. No value (data) is assigned yet (it's an empty box).
 
 ```javascript
 let myVariable;
@@ -71,7 +70,7 @@ var yourVariable;
 ```
 
 Notice that there are two way to declare a variable without assignign a value. Generally, you should use `let` over `var`.
-`var` is older and behaves slightly differently.
+`var` is older and works slightly differently.
 
 ### Assign (=)
 
@@ -193,7 +192,7 @@ There are two ways to define a `BitInt`:
 ```javascript
 const myFavoriteLargeNumber = BigInt(9007199254740991);
 
-const alsoMyFavoriteLargeNumber = 9007199254740991n;
+const alsoMyFavoriteLargeNumber = 9007199254740991n; // notice the "n" at the end
 ```
 
 ### String
@@ -250,15 +249,13 @@ All other types are based on the object type.
 
 Unlike primitives objects can hold more than one value in the form of key-value pairs.
 
-Here is an example of an object. The brackets, `{` and `}`, represent the start and end of the object. Inside, you have your key-value pairs. Each key will have one value. For example, `yearLaunched`, the key, is assigned to `2017`, the value.
-
-Just like variables, the key is generally camelCase.
+The brackets, `{` and `}`, represent the start and end of the object. Inside, you have your key-value pairs. Each key will have one value. For example, `yearLaunched`, the key, is assigned to `2017`, the value.
 
 ```javascript
 {
   yearLaunched: 2017,
   name: "Boaty McBoatface",
-  favoriteColor: "yellow",
+  favorite_color: "yellow",
 };
 ```
 
@@ -269,7 +266,7 @@ Objects can be assigned to variables just like primitives. Here we are assigning
 const boat = {
   yearLaunched: 2017,
   name: "Boaty McBoatface",
-  favoriteColor: "yellow"
+  favorite_color: "yellow"
 };
 
 // Here is how you can interact with the object
@@ -283,21 +280,16 @@ boat.website = "https://en.wikipedia.org/wiki/Boaty_McBoatface";
 console.log("Boat's website:" boat.website);
 ```
 
-TODO: walkthrough of a example problem together. LiveShare?
-
 ## Homework
-
-**Codecademy**
-
-- Lessons: https://www.codecademy.com/courses/learn-javascript-fundamentals/lessons/introduction-to-javascript/exercises/intro
 
 **FreeCodeCamp**
 
-- Go to FreeCodeCamp's [**JavaScript Algorithms and Data Structures**](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/) course.
-- Start with "Comment Your JavaScript Code" and do all exercise through "Declare a Read-Only Variable with the const Keyword"
+- Create an account at [freeCodeCamp](https://www.freecodecamp.org).
+- Go to freeCodeCamp's [**JavaScript Algorithms and Data Structures**](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/) course.
+- Start with **Comment Your JavaScript Code** and do all exercise through **Declare a Read-Only Variable with the const Keyword**.
+  - Before you leave, let us know which lesson you got to during standup!
 
 ## Resources
 
 - [MDN - Storing the information you need — Variables](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Variables)
-  - Section on naming
 - [MDN - Primitive](https://developer.mozilla.org/en-US/docs/Glossary/Primitive)
