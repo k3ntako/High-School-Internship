@@ -88,6 +88,8 @@ myVariable = "bye";
 yourVariable = "100";
 ```
 
+Keep in mind that you can't have two variables with the same name in the same scope!
+
 ### Initialize with value
 
 If you already know the value you want to assign your variable, you can declare the variable and assign it a value in one step.
@@ -219,6 +221,14 @@ Strings are a sequence of characters (alphabet, numbers, punctuation, etc.). Str
 const thisIsAString = "Hello world!";
 const thisIsAlsoAString = "I live on 59th St.";
 const thisIsAlsoAlsoAString = "1223"; // Not a number!
+const evenEmojis = "😆🤔";
+
+console.log(
+  thisIsAString,
+  thisIsAlsoAString,
+  thisIsAlsoAlsoAString,
+  evenEmojis
+);
 ```
 
 ### Boolean
@@ -303,7 +313,15 @@ console.log("Boat's website:" boat.website);
 - Start with **Comment Your JavaScript Code** and do all exercise through **Declare a Read-Only Variable with the const Keyword**.
   - Before you leave, let us know which lesson you got to during standup!
 
+**HTML webpage on what you've learned**
+
+- Create a new page on your website and write a little about what you learned so far about JavaScript.
+- Pick a few things from this lesson and try to explain it in your own words.
+- Make sure to use HTML elements so that the website flows nicely (headings, paragraphs, and lists can help!).
+- **Even if you don't finish, send us a link to your page so we can review it!**
+
 ## Resources
 
 - [MDN - Storing the information you need — Variables](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Variables)
 - [MDN - Primitive](https://developer.mozilla.org/en-US/docs/Glossary/Primitive)
+- [Loyola Marymount University - JavaScript Types](https://cs.lmu.edu/~ray/notes/javascripttypes/)
