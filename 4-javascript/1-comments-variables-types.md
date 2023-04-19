@@ -167,6 +167,20 @@ We will not go into detail about the differences, but **we generally recommend u
 
 You can more about the differences on [Sentry.io's website](https://sentry.io/answers/difference-between-let-and-var-in-javascript) and do an exercise on [FreeCodeCamp](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/explore-differences-between-the-var-and-let-keywords).
 
+## foobar, foo, bar, baz
+
+You will see these used throughout example code. They are used as placeholders and have no real meaning.
+Usually when you see these examples, it tells you that the name can be replace with something else.
+
+For example, variables can be called whatever you want (with some exceptions) and can be assigned to any value.
+In the example below, both `foo` and `bar` can be exchanged for something else.
+
+Don't use this in real code. Only use this as an example (e.g., when asking a question or explaining something).
+
+```javascript
+const foo = "bar";
+```
+
 ## Types (Primitives)
 
 Primitives are immutable values that at the lowest level of the language.
