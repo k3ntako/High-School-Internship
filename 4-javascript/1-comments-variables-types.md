@@ -63,6 +63,7 @@ Make sure you use a descriptive name for you variable. Just like a box, it's hel
 ### Declaring a variable
 
 `var` and `let` each create a variable. No value (data) is assigned yet (it's an empty box).
+Keep in mind that variable names have to be unique (in a given scope). In other words, you cannot use the same variable name more than once (in a given scope).
 
 ```javascript
 let myVariable;
