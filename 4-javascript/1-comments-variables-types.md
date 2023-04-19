@@ -88,6 +88,8 @@ myVariable = "bye";
 yourVariable = "100";
 ```
 
+Keep in mind that you can't have two variables with the same name in the same scope!
+
 ### Initialize with value
 
 If you already know the value you want to assign your variable, you can declare the variable and assign it a value in one step.
@@ -167,6 +169,20 @@ We will not go into detail about the differences, but **we generally recommend u
 
 You can more about the differences on [Sentry.io's website](https://sentry.io/answers/difference-between-let-and-var-in-javascript) and do an exercise on [FreeCodeCamp](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/explore-differences-between-the-var-and-let-keywords).
 
+## foobar, foo, bar, baz
+
+You will see these used throughout example code. They are used as placeholders and have no real meaning.
+Usually when you see these examples, it tells you that the name can be replace with something else.
+
+For example, variables can be called whatever you want (with some exceptions) and can be assigned to any value.
+In the example below, both `foo` and `bar` can be exchanged for something else.
+
+Don't use this in real code. Only use this as an example (e.g., when asking a question or explaining something).
+
+```javascript
+const foo = "bar";
+```
+
 ## Types (Primitives)
 
 Primitives are immutable values that at the lowest level of the language.
@@ -205,6 +221,14 @@ Strings are a sequence of characters (alphabet, numbers, punctuation, etc.). Str
 const thisIsAString = "Hello world!";
 const thisIsAlsoAString = "I live on 59th St.";
 const thisIsAlsoAlsoAString = "1223"; // Not a number!
+const evenEmojis = "😆🤔";
+
+console.log(
+  thisIsAString,
+  thisIsAlsoAString,
+  thisIsAlsoAlsoAString,
+  evenEmojis
+);
 ```
 
 ### Boolean
@@ -289,7 +313,15 @@ console.log("Boat's website:" boat.website);
 - Start with **Comment Your JavaScript Code** and do all exercise through **Declare a Read-Only Variable with the const Keyword**.
   - Before you leave, let us know which lesson you got to during standup!
 
+**HTML webpage on what you've learned**
+
+- Create a new page on your website and write a little about what you learned so far about JavaScript.
+- Pick a few things from this lesson and try to explain it in your own words.
+- Make sure to use HTML elements so that the website flows nicely (headings, paragraphs, and lists can help!).
+- **Even if you don't finish, send us a link to your page so we can review it!**
+
 ## Resources
 
 - [MDN - Storing the information you need — Variables](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Variables)
 - [MDN - Primitive](https://developer.mozilla.org/en-US/docs/Glossary/Primitive)
+- [Loyola Marymount University - JavaScript Types](https://cs.lmu.edu/~ray/notes/javascripttypes/)
