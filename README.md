@@ -30,3 +30,8 @@ Where: Zoom
 ## Communication
 
 Slack (TODO)
+
+## Student Websites
+- [Longsai]()
+- [Fatima]()
+- [Laziz]()
