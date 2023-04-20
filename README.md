@@ -33,5 +33,5 @@ Slack (TODO)
 
 ## Student Websites
 - [Longsai]()
-- [Fatima]()
+- [Fatima](https://afatima05.github.io/)
 - [Laziz]()
