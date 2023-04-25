@@ -2,9 +2,7 @@
 
 ## REPL
 
-It allows you to write code and run it very quickly without having to create files. You can run it on your Terminal using Node, but for now let's use one online: [replit](https://replit.com/languages/javascript).
-
-Throughout these lessons, try running the code by copying each example into the REPL.
+Like in previous lessons, try running the code for each section in [replit](https://replit.com/languages/javascript).
 
 ## String
 
@@ -46,8 +44,8 @@ console.log(myString);
 This can be done with variables as well
 ```js
 let myString = "The beginning, ";
-let middleString = "the middle, ";
-let endString = "the end.";
+const middleString = "the middle, ";
+const endString = "the end.";
 
 myString += middleString;
 myString += endString;
@@ -61,7 +59,7 @@ We've seen how we can construct strings with variables using the plus or plus eq
 If we want to insert a variable in the middle of a string sequence, we could use string concatenation like this:
 ```js
 const firstName = "Matt";
-let greetingString = "Hello, my name is " + firstName + ". Nice to meet you!";
+const greetingString = "Hello, my name is " + firstName + ". Nice to meet you!";
 
 console.log(greetingString);
 // "Hello, my name is Matt. Nice to meet you!"
@@ -71,7 +69,7 @@ This can be a bit hard to read, especially when you have multiple variables/expr
 Using a template literal, however, allows us to do the same thing in a little bit more straightforward way. To construct a template literal, the whole string needs to be wrapped in backticks (\`), and any variables are substituted in-place in the form `${variableName}`. This is called **string interpolation:**
 ```js
 const firstName = "Matt";
-let greetingString = `Hello, my name is ${firstName}. Nice to meet you!`;
+const greetingString = `Hello, my name is ${firstName}. Nice to meet you!`;
 
 console.log(greetingString);
 // "Hello, my name is Matt. Nice to meet you!"
@@ -95,70 +93,70 @@ JavaScript has the ability to perform basic arithmetic operations on numbers
 ### Addition
 Add two (or more) numbers with the plus (`+`) operator – which can be used with both literals as well as variables:
 ```js
-let x = 2 + 2;
+const x = 2 + 2;
 
 console.log(x); // 4
 
-let a = 15;
-let b = 20;
-let x = a + b;
+const a = 15;
+const b = 20;
+const y = a + b;
 
-console.log(x); // 35
+console.log(y); // 35
 ```
 ### Subtraction
 Subtract one number from another with the minus (`-`) operator – which can be used with both literals as well as variables:
 ```js
-let x = 10 - 3;
+const x = 10 - 3;
 
 console.log(x); // 7
 
-let a = 50;
-let b = 20;
-let x = a - b;
+const a = 50;
+const b = 20;
+const y = a - b;
 
-console.log(x); // 30
+console.log(y); // 30
 ```
 ### Multiplication
 Multiply one number by another with the multiply (`*`) operator – which can be used with both literals as well as variables:
 ```js
-let x = 10 * 3;
+const x = 10 * 3;
 
 console.log(x); // 30
 
-let a = 5;
-let b = 2;
-let x = a * b;
+const a = 5;
+const b = 2;
+const y = a * b;
 
-console.log(x); // 10
+console.log(y); // 10
 ```
 ### Division
 Divide one number by another with the divide (`/`) operator – which can be used with both literals as well as variables:
 ```js
-let x = 21 / 3;
+const x = 21 / 3;
 
 console.log(x); // 7
 
-let a = 10;
-let b = 2;
-let x = a / b;
+const a = 10;
+const b = 2;
+const y = a / b;
 
-console.log(x); // 5
+console.log(y); // 5
 ```
 ### Remainder
 Find the remainder of dividing one number by another with the modulus (`%`) operator – which can be used with both literals as well as variables:
 ```js
-let x = 21 % 3;
+const x = 21 % 3;
 
 console.log(x); // 0
 
-let a = 10;
-let b = 3;
-let x = a % b;
+const a = 10;
+const b = 3;
+const y = a % b;
 
-console.log(x); // 1
+console.log(y); // 1
 ```
 ### Increment
-Increment a number by 1 with the (`++`) operator – which can only be used with variables:
+Increment a number by 1 with the increment (`++`) operator – which can only be used with variables:
 ```js
 let x = 1;
 x++;
@@ -169,8 +167,9 @@ console.log(x); // 2
 let x = 1;
 x = x + 1;
 ```
+Note: the `++` operator can actually go immediately before or after the variable and be correct JavaScript code in both cases. There's a slightly different behavior, however – so for now just make sure the `++` comes after the variable (like `x++`).
 ### Decrement
-Decrement a number by 1 with the (`--`) operator – which can only be used with variables:
+Decrement a number by 1 with the decrement (`--`) operator – which can only be used with variables:
 ```js
 let x = 10;
 x--;
