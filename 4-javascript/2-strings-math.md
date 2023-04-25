@@ -192,7 +192,7 @@ x = x - 1;
 
 ## Homework
 - Continue with freeCodeCamp's [**JavaScript Algorithms and Data Structures**](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/) course from last week.
-- Start with **Add Two Numbers with JavaScript** and do all exercise through **Find the Length of a String**.
+- Start with **Add Two Numbers with JavaScript** and do all exercise through **Use Bracket Notation to Find the First Character in a String**.
   - Before you leave, let us know which lesson you got to during standup!
 
 ### Resources
