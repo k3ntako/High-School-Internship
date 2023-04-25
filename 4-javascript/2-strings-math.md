@@ -87,7 +87,16 @@ console.log(emptyString.length);  // 0
 // 
 ```
 The length property will always return a non-negative integer. Note that it includes any character, including spaces and punctuation!
+### Accessing a character with bracket notation
+**Bracket notation** is a way to get a character at a specific index within a string. Note that JavaScript, like most programming languages, start counting at 0 rather than 1 – so, to get the first item in a sequence, you would be looking for index 0, not index 1 (this would be the second item)
 
+With any string literal or variable, you can get the value at a specified position like this:
+```js
+const greeting = "Hello world!"
+const firstLetter = greeting[0]     // "H"
+const secondLetter = greeting[1]    // "e"
+const sixthLetter = greeting[5]     // " " (the space character)
+```
 ## Math
 JavaScript has the ability to perform basic arithmetic operations on numbers
 ### Addition
