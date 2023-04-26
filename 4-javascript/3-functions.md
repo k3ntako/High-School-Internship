@@ -256,7 +256,7 @@ console.log(result); // potato
 In these examples, we have two functions. `Outer` function is called in the global scope, and the `Inner` function is called inside the `Outer` function.
 
 ```javascript
-const food = "global string";
+const foo = "global string";
 
 const Outer = () => {
   const foo = "outer string";
