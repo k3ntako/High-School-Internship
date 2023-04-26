@@ -4,7 +4,7 @@
 
 March 28th - June 2nd
 
-When: Monday - Friday 1:15pm-2:15pm
+When: Monday - Friday 1pm-2pm
 
 Where: Zoom
 
