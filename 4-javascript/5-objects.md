@@ -7,13 +7,15 @@ Objects start and end with curly braces (`{` and `}`), and the key and value are
 In the following example, **key** is `boston` and the **value** is `"The Daily Catch"`.
 
 ```javascript
-const myFavoriteRestaurants = {
+{
   boston: "The Daily Catch",
 };
 ```
 
 You can sepecify multiple key-value pairs at once.
 Make sure to put a comma after each value. You can omit the comma after the last value.
+
+In this example, we even assigned it to a variable.
 
 ```javascript
 const myFavoriteRestaurants = {
@@ -22,25 +24,18 @@ const myFavoriteRestaurants = {
 };
 ```
 
-Many other languages call this a "dictionary". Like a physical dictionary, you can look up a term (or key) and find a value.
-Like in a physical dictionary, it's easy to find the definition (or value) using the word (or key), but harder to find the key using the definition (or value).
-
 ## Keys
 
 Keys is like the address within an object.
 Keys are always strings. You can use other values, but they get turned into a string.
-Bracket notation
-
-- Allows accessing keys with special characters
-- Allows accessing when key is stored in a variable
 
 ## Values
 
 Values can be any data type (e.g., strings, numbers, booleans, object, arrays, etc.).
 
-## Accessing a value
+## Accessing a Value
 
-### Dot notation
+### Dot Notation
 
 This is the preferred way of accessing items, but it cannot always be used.
 You can access an item by using a dot (`.`) after the object and specifying the key.
@@ -57,12 +52,12 @@ console.log(myFavoriteRestaurants.boston); // The Daily Catch
 This only works if the key is a valid variable name (no special character except `$` and `_` and doesn't start with a number). Reserved words also work.
 If your key is not a valid variable name, use the bracket notation.
 
-### Bracket notation
+### Bracket Notation
 
 Similar to accessing an item of an array using the index, you use brackets (`[` and `]`) after the object and specify the key.
 This allow you to access keys that dot notations does not allow.
 
-However, when picking a key, I would recommend using `camelCase` (or maybe `snake_case`).
+However, I would recommend using a `camelCase` (or maybe `snake_case`) key that can be accessed using the dot notation if possible.
 
 ```javascript
 const myFavoriteRestaurants = {
@@ -74,7 +69,7 @@ const myFavoriteRestaurants = {
 console.log(myFavoriteRestaurants["san francisco"]); // La Taqueria
 ```
 
-Bracket notation also allows you to use variables.
+Bracket notation also allows you to use variables. Notice that the variable goes inside the brackets.
 
 ```javascript
 const nextCityToVisit = "boston";
@@ -88,7 +83,24 @@ const myFavoriteRestaurants = {
 console.log(myFavoriteRestaurants[nextCityToVisit]); // The Daily Catch
 ```
 
-## Updating a value
+### Non-Strings as Keys
+
+You can also use keys that are not strings using the bracket notation. However, JavaScript will convert these values to strings.
+It's generally safer to always use strings as keys.
+
+```javascript
+const myObject = {};
+
+myObject["true"] = 1;
+myObject[true] = 2;
+
+console.log("true"); // 2
+console.log(true); // 2
+```
+
+## Updating a Value
+
+It's similar to updating an array. You can use both dot and bracket notations. Just like arrays, you can mutate an object defined with `const`.
 
 ```javascript
 const myFavoriteRestaurants = {
@@ -101,7 +113,7 @@ myFavoriteRestaurants.boston = "Vietnamese";
 myFavoriteRestaurants["newYork"] = "Sushi";
 ```
 
-## Adding a new key-value pair
+## Adding a New Key-Value Pair
 
 ```javascript
 const myFavoriteRestaurants = {
@@ -114,7 +126,7 @@ myFavoriteRestaurants.los_angeles = "Vietnamese";
 myFavoriteRestaurants["tokyo"] = "Sushi";
 ```
 
-## Deleting a value
+## Deleting a Value
 
 You can set a value to `null` to indicate that that key no longer has a value. However, you can also delete the key-value pair.
 
@@ -152,7 +164,7 @@ console.log(myFavoriteRestaurants.newYork);
 
 The small difference is that when you `console.log(myFavoriteRestaurants)`, you can see that `newYork` is still there.
 
-## Methods in objects
+## Methods in Objects
 
 When a function is stored inside an object it is called a method.
 
@@ -174,27 +186,12 @@ const calculator = {
 };
 ```
 
-## Non-strings as keys
-
-You can also use keys that are not strings using the bracket notation. However, JavaScript will convert these values to strings.
-It's generally safer to always use strings as keys.
-
-```javascript
-const myObject = {};
-
-myObject["true"] = 1;
-myObject[true] = 2;
-
-console.log("true"); // 2
-console.log(true); // 2
-```
-
 ## Nested objects
 
 Just like arrays, objects can hold a lot different types of data.
 
-For example, you might want more details about each restaurant. There is no real limit on how much you can nest objects and arrays.
-Keep in mind that nesting arrays and objects can make it harder to understand.
+For example, you might want more details about each restaurant. There is no real limit on how many times you can nest objects and arrays.
+Keep in mind that nesting arrays and objects can make it harder to work with.
 
 ```javascript
 const myFavoriteRestaurants = {
@@ -242,7 +239,7 @@ myFavoriteRestaurants.boston.dishes.push({
 myFavoriteRestaurants.boston.hasOtherLocations = true;
 ```
 
-### Order of operations:
+### Order of Operations:
 
 Similar to in math ([PEMDAS](https://www.mathnasium.com/eagan/news/what-pemdas-e)), JavaScript is evaluated in a certain order.
 In the below example, it will:
@@ -255,7 +252,7 @@ In the below example, it will:
 myFavoriteRestaurants.sanFrancisco.name;
 ```
 
-### Accessing a value that does not exist
+### Accessing a Value that Does Not Exist
 
 Using a key that does not exist to retrieve data, it will return `undefined`.
 
@@ -308,7 +305,7 @@ Strings, for example, are converted to the `String` object.
 
 </details>
 
-### Objects in arrays
+### Objects in Arrays
 
 Arrays can also have objects too!
 
@@ -316,7 +313,7 @@ Arrays can also have objects too!
 [{ foo: 1 }, { bar: 2 }];
 ```
 
-## Passing by reference
+## Passing by Reference
 
 Both arrays and objects are passed into a function by reference.
 When a primitive is passed into a function as an argument, any changes made to the primitive does not affect the original variable.
