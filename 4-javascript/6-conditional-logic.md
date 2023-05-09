@@ -226,3 +226,112 @@ false ||  false   // false
   - Make sure you're logged in!
 - Start with **Understanding Boolean Values** through **Comparisons with the Logical Or Operator**.
   - Before you leave, let us know which lesson you got to during standup!
+
+# Part 2
+## Else Statements
+When the condition in an `if` statement is true, the code in the block that follows is executed – however, when it is false nothing happens and our code continues executing outside of the `if` statement. If we want something to happen when the condition is false, we can use an `else` statement:
+```js
+if (something) {
+  // do one thing
+} else {
+  // do something else
+}
+// code continues
+```
+An `else` statement looks similar to an `if` statement, just without the parentheses and condition, since it's understood to handle the case where the original condition is false.
+
+All of the examples in the previous section simply have a `return` after the `if` statement to capture the alternate case, but we can rewrite them like this:
+```js
+// previous example
+if (value > 10 && value < 20) {
+  return "Between 10 and 20!";
+}
+return "Outside range.";
+
+// with else statement
+if (value > 10 && value < 20) {
+  return "Between 10 and 20!";
+} else {
+  return "Outside range.";
+}
+```
+These are simple examples, but the use is easier to see when we want to perform one action if the condition is true, and another action when the condition is false – then continue executing (without `return` statements in our conditional)
+```js
+function greetUser(name) {
+  if (name === "Alex") {
+    console.log("Hi again, Alex!")
+  } else {
+    console.log("Hello new user!")
+  }
+  console.log("Welcome to the app!")
+}
+```
+The additional `else` block lets us capture both execution paths and perform different actions for both cases, before continuing on with executing code.
+
+## Else If Statements
+If we have more than two cases to account for, we can chain several `if` statements together by using `else if` blocks.
+```js
+if (oneCondition) {
+  // do one thing
+} else if (anotherCondition) {
+  // do a different thing
+} else {
+  // do a third thing
+}
+```
+Only one of those blocks of code will be executed, and we can account for as many cases as we want by adding `else if` statements.
+```js
+// don't do this! lol
+function whichCharacter(char) {
+  if (char === "A") {
+    console.log("The letter is A")
+  } else if (char === "B") {
+    console.log("The letter is B")
+  } else if (char === "C") {
+    console.log("The letter is C")
+  } else if (char === "D") {
+    ...
+  } else {
+    console.log("The letter is z")
+  }
+  return char
+}
+```
+It's important to think about the order of our `if` and `else if` statements. Since functions are executed from top to bottom, be careful about which statements come before others. Consider these two similar functions:
+```js
+function checkNumberA(number) {
+  if (number < 5) {
+    return "Less than five";
+  } else if (number < 10) {
+    return "Less than ten";
+  } else {
+    return "Greater than or equal to ten";
+  }
+}
+```
+This one has the same conditions, just in a different order:
+```js
+function checkNumberB(number) {
+  if (number < 10) {
+    return "Less than ten";
+  } else if (number < 5) {
+    return "Less than five";
+  } else {
+    return "Greater than or equal to ten";
+  }
+}
+```
+When calling these with the same value, we get different results:
+```js
+console.log(checkNumberA(4))    // Less than five
+console.log(checkNumberB(4))    // Less than ten
+```
+
+## Homework
+
+**FreeCodeCamp**
+
+- Go to freeCodeCamp's [**JavaScript Algorithms and Data Structures**](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/) course.
+  - Make sure you're logged in!
+- Start with **Introducing Else Statements** through **Golf Code**.
+  - Before you leave, let us know which lesson you got to during standup!
