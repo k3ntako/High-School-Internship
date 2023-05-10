@@ -335,3 +335,122 @@ console.log(checkNumberB(4))    // Less than ten
   - Make sure you're logged in!
 - Start with **Introducing Else Statements** through **Golf Code**.
   - Before you leave, let us know which lesson you got to during standup!
+
+# Part 3
+## Switch Statements
+JavaScript has a way to handle matching a single value against many options – a `switch` statement. 
+
+```js
+switch (value) {
+  case "First value":
+    // do some code
+    break;
+  case "Second value":
+    // do some other code
+    break;
+  case "Third value":
+    // do some other other code
+    break;    
+}
+```
+The `switch` statements allows us to replace a chain of `if`/`else if` statements, each using an equality operator, with something a little easier to read:
+```js
+// our awkward example from before
+function whichCharacter(char) {
+  if (char === "A") {
+    console.log("The letter is A")
+  } else if (char === "B") {
+    console.log("The letter is B")
+  } else if (char === "C") {
+    console.log("The letter is C")
+  } else if (char === "D") {
+    console.log("The letter is D")
+  }
+  return char;
+}
+
+// can be refactored to
+function whichCharacter(char) {
+  switch (char) {
+    case "A":
+      console.log("The letter is A");
+      break;
+    case "B":
+      console.log("The letter is B");
+      break;
+    case "C":
+      console.log("The letter is C");
+      break;
+    case "D":
+      console.log("The letter is D");
+      break;
+  }
+  return char;
+}
+```
+Starting from the top, the code under the first matching `case` statement will be executed, until a `break` is reached. Then the code outside of the `switch` will continue executing.
+
+If a `case` statement doesn't include a `break` the following `case` statement(s) are executed until the code reaches a `break` – because of this, you can account for using the same behavior with multiple matches.
+```js
+function whichSize(size) {
+  let result = "";
+  switch (size) {
+    case 1:
+    case 2:
+    case 3:
+      result = "Size is small";
+      break;
+    case 4:
+      result = "Size is medium";
+      break;
+  }
+  return result;
+}
+```
+### Default Case
+There may be some situations where you can't account for every possible input in your `case` statements. To handle these, you can add a `default` statement that will be executed if no `case` statements are matched. This works in the same way as a final `else` statement in a chain of `if`/`else if` statements.
+```js
+function fruitPrice(fruit) {
+  switch (fruit) {
+    case "apples":
+      console.log("Apples are $0.99 per pound.");
+      break;
+    case "oranges":
+      console.log("Oranges are $3.99 for 5 pound bag.");
+      break;
+    default:
+      console.log(`Sorry, we are out of ${fruit}.`);
+  }
+}
+
+whichFruit("apples")     // Apples are $0.99 per pound.
+whichFruit("oranges")    // Oranges are $3.99 for 5 pound bag.
+whichFruit("bananas")    // Sorry, we are out of bananas.
+```
+When using a `default` statement, it should come last.
+## Returning a Boolean from Functions
+Remember that all comparison operators return a boolean value – `true` or `false`. Because of this, we can write functions that return the result of a comparison – this also allows us to write custom comparison functions to be used in `if` statements, etc.
+```js
+function isGreater(a, b) {
+  return a > b;
+}
+
+function compare(x, y) {
+  if (isGreater(x, y)) {
+    console.log(`${x} is greater than ${y}`)
+  } else {
+    console.log(`${x} is less than or equal to ${y}`)
+  }
+}
+
+compare(5, 4)
+compare(2, 3)
+```
+## Homework
+
+**FreeCodeCamp**
+
+- Go to freeCodeCamp's [**JavaScript Algorithms and Data Structures**](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/) course.
+  - Make sure you're logged in!
+- Start with **Selecting from Many Options with Switch Statements** through **Returning Boolean Values from Functions**.
+  - Before you leave, let us know which lesson you got to during standup!
