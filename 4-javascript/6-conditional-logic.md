@@ -454,3 +454,12 @@ compare(2, 3)
   - Make sure you're logged in!
 - Start with **Selecting from Many Options with Switch Statements** through **Returning Boolean Values from Functions**.
   - Before you leave, let us know which lesson you got to during standup!
+
+**Codecademy**
+
+Complete the [Conditional Statements](https://www.codecademy.com/courses/introduction-to-javascript/lessons/control-flow/exercises/control-flow-intro) course.
+
+## Resources
+
+- [Codecademy - JavaScript Conditionals](https://www.codecademy.com/resources/docs/javascript/conditionals)
+- [Codecademy - JavaScript Control Flow Cheatsheet](https://www.codecademy.com/learn/bapi-javascript-conditionals-and-functions/modules/learn-javascript-control-flow/cheatsheet)
