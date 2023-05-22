@@ -23,7 +23,7 @@ You can use the `querySelector` to get the element you want to style.
 
 ```javascript
 const div = document.querySelector("#introduction");
-console.log(div.width); // prints the width of the div
+console.log(div.style.width); // prints the width of the div
 
 div.style.color = "white";
 div.style.backgroundColor = "blue";
