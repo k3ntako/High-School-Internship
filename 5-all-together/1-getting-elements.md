@@ -58,7 +58,7 @@ DOM is a way to represent the HTML page as a tree.
 
 The above code would look like this:
 
-<img src="https://raw.githubusercontent.com/k3ntako/High-School-Internship/5-all-together/images/DOM-model.svg" />
+<img src="https://raw.githubusercontent.com/k3ntako/High-School-Internship/96cb265dc293660c76c55840f9b2b9cf336c8c92/5-all-together/images/DOM-model.svg" />
 
 <a href="https://commons.wikimedia.org/wiki/File:DOM-model.svg">Diagram</a> created by Birger Eriksson.
 
