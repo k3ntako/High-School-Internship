@@ -128,3 +128,25 @@ function onClick() {
 
 button.addEventListener("click", onClick);
 ```
+
+## Input
+
+The `<input>` element is a way to get text input from the user.
+
+```html
+<input />
+```
+
+Using the `input` event listener, we can capture any changes made inside the `<input>`. Below, every time the user changes the text inside the input, the `onInputChange` function is triggered.
+
+Notice that the `onInputChange` function takes an `event` argument, which contains information about the event. Because `onInputChange` is an "event listener" it makes sense that the function receives that information.
+
+Using the `event` passed in, we can get the text inside the `<input>`: `event.target.value`
+
+```javascript
+const input = document.querySelector("input");
+function onInputChange(event) {
+  console.log(event.target.value);
+}
+input.addEventListener("input", onInputChange);
+```
