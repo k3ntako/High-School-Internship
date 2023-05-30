@@ -150,3 +150,43 @@ function onInputChange(event) {
 }
 input.addEventListener("input", onInputChange);
 ```
+
+## Select
+The `<select>` element is another way to get input from the user – by allowing them to select from a list of options, presented in a dropdown menu.
+```html
+<select id="colors">
+  <option>Red</option>
+  <option>Blue</option>
+  <option>Green</option>
+</select>
+```
+The `<select>` element defines the dropdown menu, while `<option>` elements represent each option the user can choose. By default, the `value` associated with each option is whatever content is between `<option>` tags. You can also give an explicit value with the `value` attribute.
+```html
+<select id="colors">
+  <option value="red">Red, like a cherry</option>
+  <option value="blue">Blue, like the sky</option>
+  <option value="green">Green, like grass</option>
+</select>
+```
+To set a default value, add the `selected` attribute to whichever option should be preselected when the page loads.
+```html
+<select id="colors">
+  <option selected>Please choose a color:</option>
+  <option>Red</option>
+  <option>Blue</option>
+  <option>Green</option>
+</select>
+```
+
+### Change event
+Similar to `input` events, a `<select>` element uses a `change` event to capture the user selection. In this example, every time a user chooses a different option, `onOptionChange` is called and the `value` of the selected option is logged to the console.
+
+Just like with `input` event handlers, `change` event handlers are also called with the `event` object – giving us access to the same properties as previous examples.
+
+```js
+const select = document.querySelector("select");
+function onOptionChange(event) {
+  console.log(event.target.value);
+}
+select.addEventListener("change", onOptionChange);
+```
