@@ -1,0 +1,20 @@
+<html>
+  <body>
+    <p id="text"></p>
+
+    <button>Click Me!</button>
+  </body>
+  <script>
+    const button = document.querySelector("button");
+
+    // A function that changes the text inside the <p>
+    function onClick() {
+      const paragraph = document.querySelector("p#text");
+      paragraph.innerText = "You clicked the button!";
+    }
+
+    // Adds an event listener to the button element
+    // Whenever there is a "click" event, the onClick function is triggered
+    button.addEventListener("click", onClick);
+  </script>
+</html>
